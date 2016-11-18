@@ -35,16 +35,23 @@ html {
   background-image: url("../images/leaf-icon.svg");
   background-size: 64px auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0.75em;
 }
 
 .banner {
   background-image: url("../images/banner.jpg");
   border-bottom: 3px solid #2d5a4d;
   background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
 }
 
 .banner-content {
+  background-image: url("../images/two-leaves.svg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  padding-top: 315px;
 }
 
 @media only screen and (min-width: 60em) {
