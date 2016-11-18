@@ -31,19 +31,21 @@ html {
 
 .nav a:hover {
   color: #2d5a4d;
-  background-color: white;
+  background-color: #fff;
   background-image: url("../images/leaf-icon.svg");
   background-size: 64px auto;
   background-repeat: no-repeat;
-  background-position: 0.75em;
+  background-position: .75em;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-  border-bottom: 3px solid #2d5a4d;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  border-bottom: 3px solid #145b1d;
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
+  background-position: bottom center;
+
 }
 
 .banner-content {
@@ -51,7 +53,7 @@ html {
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 100px auto;
-  padding-top: 315px;
+  padding-top: 350px;
 }
 
 @media only screen and (min-width: 60em) {
